@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Framework.Tests", "Skiss.Framework.Tests\Skiss.Framework.Tests.csproj", "{6DBA4BFA-2C11-47BA-8DD4-D9D163093B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Driver.UIAutomation", "Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj", "{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.AutomationTarget.WinForms", "Skiss.AutomationTarget.WinForms\Skiss.AutomationTarget.WinForms.csproj", "{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.AutomationTarget.WinForms.UITests", "Skiss.AutomationTarget.WinForms.UITests\Skiss.AutomationTarget.WinForms.UITests.csproj", "{C08016C7-F46D-4F39-B41A-96EFB546D47C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skiss.Framework", "Skiss.Framework\Skiss.Framework.csproj", "{B0B8A7DF-72C9-420E-9B64-9FBFD9AA6BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Driver.UIAutomation.Tests", "Skiss.Driver.UIAutomation.Tests\Skiss.Driver.UIAutomation.Tests.csproj", "{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DBA4BFA-2C11-47BA-8DD4-D9D163093B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA4BFA-2C11-47BA-8DD4-D9D163093B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA4BFA-2C11-47BA-8DD4-D9D163093B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA4BFA-2C11-47BA-8DD4-D9D163093B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08016C7-F46D-4F39-B41A-96EFB546D47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08016C7-F46D-4F39-B41A-96EFB546D47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08016C7-F46D-4F39-B41A-96EFB546D47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08016C7-F46D-4F39-B41A-96EFB546D47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B8A7DF-72C9-420E-9B64-9FBFD9AA6BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B8A7DF-72C9-420E-9B64-9FBFD9AA6BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B8A7DF-72C9-420E-9B64-9FBFD9AA6BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B8A7DF-72C9-420E-9B64-9FBFD9AA6BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3340DDF-65FA-4430-91FA-5A2B02FE98A6}
+	EndGlobalSection
+EndGlobal
