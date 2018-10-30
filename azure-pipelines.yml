@@ -26,8 +26,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: DotNetCoreCLI@2
-  displayName: 'dotnet pack'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack'
   inputs:
     command: pack
     packagesToPack: src/Skiss.Driver.UIAutomation/Skiss.Driver.UIAutomation.csproj
