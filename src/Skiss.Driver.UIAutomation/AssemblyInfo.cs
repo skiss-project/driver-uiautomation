@@ -19,3 +19,4 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyCopyright("Copyright © Simon Wendel 2018")]
 [assembly: InternalsVisibleTo("Skiss.Driver.UIAutomation.Tests")]
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
