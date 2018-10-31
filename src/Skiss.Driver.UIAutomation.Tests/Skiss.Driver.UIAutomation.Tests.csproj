@@ -67,12 +67,6 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj">
-      <Project>{5439423a-c0b4-4b5e-b0d8-b5b19ee6ea58}</Project>
-      <Name>Skiss.Driver.UIAutomation</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="FluentAssertions">
       <Version>5.4.2</Version>
     </PackageReference>
@@ -96,6 +90,12 @@
     <PackageReference Include="System.Threading.Tasks.Extensions">
       <Version>4.5.1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj">
+      <Project>{7d52215e-a35c-475b-9a94-d81843d81410}</Project>
+      <Name>Skiss.Driver.UIAutomation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

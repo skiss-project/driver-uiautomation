@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Driver.UIAutomation", "Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj", "{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.AutomationTarget.WinForms", "Skiss.AutomationTarget.WinForms\Skiss.AutomationTarget.WinForms.csproj", "{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.AutomationTarget.WinForms.UITests", "Skiss.AutomationTarget.WinForms.UITests\Skiss.AutomationTarget.WinForms.UITests.csproj", "{C08016C7-F46D-4F39-B41A-96EFB546D47C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Driver.UIAutomation.Tests", "Skiss.Driver.UIAutomation.Tests\Skiss.Driver.UIAutomation.Tests.csproj", "{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiss.Driver.UIAutomation", "Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj", "{7D52215E-A35C-475B-9A94-D81843D81410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BFB33BF-3DA4-4CD6-B5F5-3CC182D083FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7395E8-2F07-41A7-9C9E-D87DB7F1AE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D52215E-A35C-475B-9A94-D81843D81410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D52215E-A35C-475B-9A94-D81843D81410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D52215E-A35C-475B-9A94-D81843D81410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D52215E-A35C-475B-9A94-D81843D81410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

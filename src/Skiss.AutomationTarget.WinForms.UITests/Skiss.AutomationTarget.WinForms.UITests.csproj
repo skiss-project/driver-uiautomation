@@ -67,7 +67,7 @@
       <Name>Skiss.AutomationTarget.WinForms</Name>
     </ProjectReference>
     <ProjectReference Include="..\Skiss.Driver.UIAutomation\Skiss.Driver.UIAutomation.csproj">
-      <Project>{5439423A-C0B4-4B5E-B0D8-B5B19EE6EA58}</Project>
+      <Project>{7d52215e-a35c-475b-9a94-d81843d81410}</Project>
       <Name>Skiss.Driver.UIAutomation</Name>
     </ProjectReference>
   </ItemGroup>
