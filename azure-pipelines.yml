@@ -33,5 +33,12 @@ steps:
     packagesToPack: src/Skiss.Driver.UIAutomation/Skiss.Driver.UIAutomation.csproj
     versioningScheme: byPrereleaseNumber
 
+- task: NuGetCommand@2
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: '30a69301-c3d8-4484-abea-5bdb3b54ae66'
+
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
