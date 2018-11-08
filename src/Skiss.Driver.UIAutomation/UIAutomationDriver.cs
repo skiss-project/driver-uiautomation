@@ -25,6 +25,11 @@ namespace Skiss.Driver.UIAutomation
             throw new System.NotImplementedException();
         }
 
+        public void Kill()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public ClickAction<T> FindClickable<T>(string identifier)
             where T : Element<T>
         {

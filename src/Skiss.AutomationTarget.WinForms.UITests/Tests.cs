@@ -31,6 +31,15 @@ namespace Skiss.AutomationTarget.WinForms.UITests
 
         [Test]
         [Ignore("No implementation to back this")]
+        public void WinFormsTarget_GivenExecutable_ShouldStartAndKill()
+        {
+            Assignment<CalculatorWindow>
+                .Start("Skiss.AutomationTarget.WinForms.exe")
+                .Kill();
+        }
+
+        [Test]
+        [Ignore("No implementation to back this")]
         public void WinFormsTarget_GivenExecutable_ShouldStartAndStop()
         {
             Assignment<CalculatorWindow>
