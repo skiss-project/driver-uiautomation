@@ -55,6 +55,7 @@
     <Compile Include="AutomationElementProxyCollectionTests.cs" />
     <Compile Include="AutomationElementProxyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EnvironmentChecks.cs" />
     <Compile Include="WindowHandleExtractorTests.cs" />
   </ItemGroup>
   <ItemGroup>
