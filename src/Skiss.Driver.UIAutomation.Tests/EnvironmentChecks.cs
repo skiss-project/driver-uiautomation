@@ -37,7 +37,6 @@ namespace Skiss.Driver.UIAutomation.Tests
         [Category("EnvironmentCheck")]
         public void WindowsDesktop_GivenThatDesktopStuffIsAvailable_ExposesTrayWnd()
         {
-
             var pid = AutomationElement.RootElement.FindFirst(
                 TreeScope.Children,
                 new PropertyCondition(AutomationElement.ClassNameProperty, "Shell_TrayWnd")).Current.ProcessId;
