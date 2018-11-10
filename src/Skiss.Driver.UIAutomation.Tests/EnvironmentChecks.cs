@@ -22,17 +22,22 @@ namespace Skiss.Driver.UIAutomation.Tests
     using FluentAssertions;
     using NUnit.Framework;
 
+    /// <summary>
+    /// Tests the current environment running the test project, making sure it passes some basic
+    /// sanity check(s).
+    /// </summary>
     public class EnvironmentChecks
     {
+        /// <summary>
+        /// This is to see if we can find the main hwnd of something to use in tests on CI builds.
+        /// If this fails, we have a hard time to test stuff around System.Diagnostics.Process and
+        /// their MainWindowHandle values.
+        /// </summary>
         [Test]
         [Category("EnvironmentCheck")]
         public void WindowsDesktop_GivenThatDesktopStuffIsAvailable_ExposesTrayWnd()
         {
-            /*
-                This is to see if we can find the main hwnd of something to use in tests on CI builds.
-                If this fails, we have a hard time to test stuff around System.Diagnostics.Process and
-                their MainWindowHandle values.
-             */
+
             var pid = AutomationElement.RootElement.FindFirst(
                 TreeScope.Children,
                 new PropertyCondition(AutomationElement.ClassNameProperty, "Shell_TrayWnd")).Current.ProcessId;
