@@ -29,9 +29,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void Constructor_GivenNullProcess_ThrowsException()
         {
             Action constructing = () => new ProcessProxy(null);
-
-            constructing
-                .Should().ThrowExactly<ArgumentNullException>()
+            constructing.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("process");
         }
 

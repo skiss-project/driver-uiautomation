@@ -44,9 +44,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void Constructor_GivenNullElement_ThrowsException()
         {
             Action constructing = () => new AutomationElementProxy(null);
-
-            constructing
-                .Should().ThrowExactly<ArgumentNullException>()
+            constructing.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("element");
         }
 
@@ -63,9 +61,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void FindAll_GivenNullCondition_ThrowsException()
         {
             Action finding = () => sut.FindAll(TreeScope.Subtree, null);
-
-            finding
-                .Should().ThrowExactly<ArgumentNullException>()
+            finding.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("condition");
         }
 
@@ -73,9 +69,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void FindFirst_GivenNullCondition_ThrowsException()
         {
             Action finding = () => sut.FindFirst(TreeScope.Subtree, null);
-
-            finding
-                .Should().ThrowExactly<ArgumentNullException>()
+            finding.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("condition");
         }
 
@@ -83,9 +77,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void TryGetCurrentPattern_GivenNullPattern_ThrowsException()
         {
             Action trying = () => sut.TryGetCurrentPattern(null, out var patternObj);
-
-            trying
-                .Should().ThrowExactly<ArgumentNullException>()
+            trying.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("pattern");
         }
     }

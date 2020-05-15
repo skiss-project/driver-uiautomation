@@ -26,7 +26,6 @@ namespace Skiss.Driver.UIAutomation.Tests
     internal class AutomationElementProxyCollectionTests
     {
         private AutomationElementCollection elements;
-
         private AutomationElementProxyCollection sut;
 
         [SetUp]
@@ -40,9 +39,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void Constructor_GivenNullElementCollection_ThrowsException()
         {
             Action constructing = () => new AutomationElementProxyCollection(null);
-
-            constructing
-                .Should().ThrowExactly<ArgumentNullException>()
+            constructing.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("elements");
         }
 
@@ -84,9 +81,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void CopyTo_GivenNullArrayInstace_ThrowsException()
         {
             Action copying = () => sut.CopyTo((Array)null, 0);
-
-            copying
-                .Should().ThrowExactly<ArgumentNullException>()
+            copying.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("dest");
         }
 
@@ -102,9 +97,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void CopyTo_GivenNullElementArray_ThrowsException()
         {
             Action copying = () => sut.CopyTo((IAutomationElement[])null, 0);
-
-            copying
-                .Should().ThrowExactly<ArgumentNullException>()
+            copying.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("dest");
         }
 

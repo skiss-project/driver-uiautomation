@@ -23,9 +23,7 @@ namespace Skiss.Driver.UIAutomation
     internal class WindowHandleExtractor : IWindowHandleExtractor
     {
         private const int NumberOfRetries = 9;
-
         private static readonly IntPtr IllegalHandle = IntPtr.Zero;
-
         private readonly Policy<IntPtr> policy;
 
         public WindowHandleExtractor()

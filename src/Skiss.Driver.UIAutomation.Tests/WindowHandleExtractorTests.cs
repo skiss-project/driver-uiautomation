@@ -24,7 +24,6 @@ namespace Skiss.Driver.UIAutomation.Tests
     public class WindowHandleExtractorTests
     {
         private Mock<IProcess> process;
-
         private WindowHandleExtractor sut;
 
         [SetUp]
@@ -38,9 +37,7 @@ namespace Skiss.Driver.UIAutomation.Tests
         public void GetMainWindowHandle_GivenNullProcess_ThrowsException()
         {
             Action getting = () => sut.GetMainWindowHandle(null);
-
-            getting
-                .Should().ThrowExactly<ArgumentNullException>()
+            getting.Should().ThrowExactly<ArgumentNullException>()
                 .Which.ParamName.Should().Be("process");
         }
 
