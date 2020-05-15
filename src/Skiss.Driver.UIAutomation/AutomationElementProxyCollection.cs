@@ -20,6 +20,7 @@ namespace Skiss.Driver.UIAutomation
     using System.Collections;
     using System.Linq;
     using System.Windows.Automation;
+    using GuardStatements;
 
     internal class AutomationElementProxyCollection : IAutomationElementCollection
     {

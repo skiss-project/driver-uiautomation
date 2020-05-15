@@ -18,6 +18,7 @@ namespace Skiss.Driver.UIAutomation
 {
     using System;
     using System.Diagnostics;
+    using GuardStatements;
 
     internal class ProcessProxy : IProcess
     {

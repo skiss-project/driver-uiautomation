@@ -18,6 +18,7 @@ namespace Skiss.Driver.UIAutomation
 {
     using System;
     using System.Windows.Automation;
+    using GuardStatements;
 
     internal class AutomationElementProxy : IAutomationElement
     {

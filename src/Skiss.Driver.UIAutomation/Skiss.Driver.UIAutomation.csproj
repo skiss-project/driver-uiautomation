@@ -31,6 +31,7 @@
   </ItemGroup>
  
   <ItemGroup>
+    <PackageReference Include="GuardStatements" Version="3.0.8" />
     <PackageReference Include="Polly" Version="6.1.0" />
     <PackageReference Include="Skiss.Framework" Version="1.0.0-CI-20200509-105612" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta009">

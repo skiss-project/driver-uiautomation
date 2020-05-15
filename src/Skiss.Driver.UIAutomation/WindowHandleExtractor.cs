@@ -17,6 +17,7 @@
 namespace Skiss.Driver.UIAutomation
 {
     using System;
+    using GuardStatements;
     using Polly;
 
     internal class WindowHandleExtractor : IWindowHandleExtractor

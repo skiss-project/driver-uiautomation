@@ -16,6 +16,7 @@
 
 namespace Skiss.Driver.UIAutomation
 {
+    using GuardStatements;
     using Skiss.Framework;
 
     public class UIAutomationDriver : IDriver
