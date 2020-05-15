@@ -32,7 +32,7 @@
  
   <ItemGroup>
     <PackageReference Include="Polly" Version="6.1.0" />
-    <PackageReference Include="Skiss.Framework" Version="1.0.0-CI-20181108-185508" />
+    <PackageReference Include="Skiss.Framework" Version="1.0.0-CI-20200509-105612" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta009">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
